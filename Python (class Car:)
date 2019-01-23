@@ -1,0 +1,21 @@
+class Car:
+
+    year = 2018
+    make = 'Ford Mustang'
+    color = 'Red'
+    
+    def __init__(self,test):
+        self.test = test
+    def getYear(self):
+        return self.year
+    def getMake(self):
+        return self.make
+    def getColor(self):
+        return self.color
+
+
+c1 = Car('Testing') #'Testing' IS FOR THE __INIT__ METHOD
+
+print(c1.getYear())
+print(c1.getMake())
+print(c1.getColor())
